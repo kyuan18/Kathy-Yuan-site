@@ -1,0 +1,37 @@
+body{
+	margin: 0 0 0 0;
+}
+
+#bg-image{
+	height: 1000px;
+	background-image: url('background1.jpg');
+	
+
+	display: block;
+	background-size: cover;
+	background-repeat: no repeat;
+	background-position: center center;
+	/*this makes the background stick in place*/
+	background-attachment: fixed;
+}
+
+h1{
+	color: white;
+}
+
+.wrapper{
+	display: inline-block;
+	position: fixed;
+	margin: auto;
+	left: 0;
+	right: 0;
+	top: 0;
+	bottom: 0;
+	width: 100px;
+	height: 30px;
+
+}
+
+
+
+/*file:///C:/Users/Barnard 16-17/HTML/CSS Class/Kathy-Yuan-site/background1.png'*/
